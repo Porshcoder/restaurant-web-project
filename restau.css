@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background:url(./image/home.jpg) ;
+    width:100% ;
+    height:100vh ;
+    background-position: center ;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.menu{
+   background: rgb(124, 124, 243); 
+   text-align: center;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu ul li{
+    width: 125px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active,.menu ul li:hover{
+    background: lightskyblue;
+    border-radius: 3px;
+}
+
+.menu .fa{
+    margin-right: 8px;
+}
+.sub-menu1{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: rgb(124, 124, 243);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+    
+}
+
+
+.menu ul li:hover .sub-menu1 ul li{
+    width:150px ;
+    padding: 10px;
+    border-bottom:1px dotted white ;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu1 ul li a:hover{
+    color:lightskyblue;
+}
+
+.fa-right-angle{
+    float: right;
+}
