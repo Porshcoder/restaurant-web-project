@@ -1,0 +1,122 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  font-size: 20px;
+  font-weight:;
+}
+
+.header a:hover {
+  background-color:rgb(8, 8, 8);
+  color:rgb(177, 169, 169);
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(235, 232, 232);
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 16px;
+  background-color: rgb(115, 123, 196);
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f2f2;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(228, 224, 224);
+  outline: none;
+}
+hr {
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color:rgb(100, 175, 147) ;
+  color: rgb(15, 15, 37);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+a {
+  color: rgb(10, 49, 88);
+}
+.signin {
+  background-color:rgb(163, 176, 235);
+  text-align: center;
+}
+.div xfag {
+  list-style-type: none;
+}
+.div{
+    list-style: none;
+    text-align: right;
+}
+.middle{
+  margin-left:300px;
+  width:45%;
+}
+form{
+  width: 50%;
+  margin-left: 300px;
+}
+.img{
+  margin: 20px;
+  background-color: white;
+}
