@@ -6,168 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>restaurant website</title>
     <link rel="stylesheet" href="./restau.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
     <div class="main">
-        <div class="navbar">
-                <div class="menu">
-                <ul>
-                    <li class="active"><a href=""><i class="fa-solid fa-house-user"></i> Home</a></li>
-                    <li><a href=""><i class="fa fa-bell-concierge"></i> Services</a></li>
-                    <li><a href=""><i class="fa fa-user"></i> About Us</a>
-
-                        <div class="sub-menu1">
-                            <ul>
-                               <li  class="hover-me"><a href="#">Our Goal</a></li>
-                               <li  class="hover-me"><a href="#">Achievements</a></li>
-                               <li  class="hover-me"><a href="#">Our Food</a> <i class="fa fa-angle-right"></i>
-                                <div class="sub-menu2">
-                                    <ul>
-                                    <li><a href="#">Grilled Gambas</a></li>
-                                    <li><a href="#">Grilled Chicken</a></li>
-                                    <li><a href="#">Grilled Pork</a></li>
-                                    <li><a href="#">Pepper Soup Goat</a></li>
-                                    <li><a href="#">Ndole Shrimps</a></li>
-                                    <li><a href="#">Eru & Garri</a></li>
-                                    <li><a href="#">Grilled Bar Fish</a></li>
-                                    </ul>
-                                   </div>
-                            
-                            
-                            </li>
-                               <li  class="hover-me"><a href="#">Our Team</a><i class="fa fa-angle-right"></i>
-                            
-                                <div class="sub-menu2">
-                                    <ul>
-                                    <li><a href="#">Chefs</a></li>
-                                    <li><a href="#">Directors</a></li>
-                                    <li><a href="#">Waiters</a></li>
-                                    </ul>
-                                   </div>
-                            
-                            
-                            
-                            </li>
-                            </ul>
-                          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white font">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><img src="./image/restau logo.png" width="35%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
                     </li>
-                    <li><a href=""><i class="fa fa-tag"></i> Order</a>
-
-                       <div class="sub-menu1">
-                         <ul>
-                            <li class="hover-me"><a href="#">Restaurant</a><i class="fa fa-angle-right"></i>
-                                <div class="sub-menu2">
-                                    <ul>
-                                    <li><a href="#">European Menu</a></li>
-                                    <li><a href="#">African Menu</a></li>
-                                    <li><a href="#">Natural Juice</a></li>
-                                    </ul>
-                                   </div>
-                            
-                            </li>
-                               <li class="hover-me"><a href="#">Grilled Food</a><i class="fa fa-angle-right"></i>
-                                <div class="sub-menu2">
-                                    <ul>
-                                    <li><a href="#">Pork/ Goat</a></li>
-                                    <li><a href="#">Chicken</a></li>
-                                    <li><a href="#">Seafood</a></li>
-                                    </ul>
-                                   </div>
-                            
-                            </li>
-                               <li class="hover-me" ><a href="#">Cafe Bar</a><i class="fa fa-angle-right"></i>
-                                <div class="sub-menu2">
-                                    <ul>
-                                    <li><a href="#">Capuccino</a></li>
-                                    <li><a href="#">Expresso</a></li>
-                                    <li><a href="#">Black Coffee</a></li>
-                                    </ul>
-                                   </div>
-                            
-                            </li>
-                               <li class="hover-me" ><a href="#">Snacks</a><i class="fa fa-angle-right"></i>
-                                <div class="sub-menu2">
-                                    <ul>
-                                    <li><a href="#">Pizzas</a></li>
-                                    <li><a href="#">Burger</a></li>
-                                    <li><a href="#">Cakes</a></li>
-                                    </ul>
-                                   </div>
-                            
-                            </li>
-                         </ul>
-                       </div>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">SERVICES</a>
                     </li>
-                    <li><a href="#"><i class="fa fa-inr"></i> Pricing</a></li>
-                    <li><a href="#"><i class="fa fa-edit"></i> Training</a></li>
-                    <li><a href="#"><i class="fa fa-martini-glass-citrus"></i>Cocktails</a>
-
-                        <div class="sub-menu1">
-                            <ul>
-                                <li class="hover-me"><a href="#">Lobby Bar</a><i class="fa fa-angle-right"></i>
-                                    <div class="sub-menu2">
-                                        <ul>
-                                        <li><a href="#">Soft Drinks</a></li>
-                                        <li><a href="#">Whiskey</a></li>
-                                        <li><a href="#">Snacks</a></li>
-                                        <li><a href="#">Cafe</a></li>
-                                        </ul>
-                                       </div>
-                                
-                                
-                                </li>
-                                <li class="hover-me" ><a href="#">Pool Bar</a><i class="fa fa-angle-right"></i>
-                                    <div class="sub-menu2">
-                                        <ul>
-                                        <li><a href="#">Cocktails</a></li>
-                                        <li><a href="#">Mocktails</a></li>
-                                        <li><a href="#">Snacks/ Fries</a></li>
-                                        </ul>
-                                       </div>
-                                </li>
-                                <li class="hover-me"><a href="#">Panoramic Bar</a><i class="fa fa-angle-right"></i>
-                                    <div class="sub-menu2">
-                                        <ul>
-                                        <li><a href="#">Cocktails</a></li>
-                                        <li><a href="#">snacks/ Fries</a></li>
-                                        <li><a href="#">Whiskey</a></li>
-                                        </ul>
-                                       </div>
-                                </li>
-
-                                <li class="hover-me" ><a href="#">Wine Bar</a><i class="fa fa-angle-right"></i>
-                                    <div class="sub-menu2">
-                                        <ul>
-                                        <li><a href="#">Ch. Barreres</a></li>
-                                        <li><a href="#">Ch.Ferrande</a></li>
-                                        <li><a href="#">Ch.Haut Medoc Giscour</a></li>
-                                        <li><a href="#">Chivas 18ans</a></li>
-                                        <li><a href="#">Green Label</a></li>
-                                        <li><a href="#">Blue Label</a></li>
-                                        <li><a href="#">Moet & Chadonnay</a></li>
-                                        </ul>
-                                       </div>
-                                </li>
-
-                            </ul>
-                          </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            RESTAURANT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Web and App Devlopment</a></li>
+                            <li><a class="dropdown-item" href="#">Brand Identity</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
-                    <li><a href="#"><i class="fa fa-phone"></i> Contacts</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">TRAINING</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Our Services</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">ORDER</a>
+                    </li>
+
+                    <li class="nav-item bg-pink hover">
+                        <a class="nav-link active" href="#">CONTACT</a>
+
                 </ul>
-                </div>
             </div>
-
-            <div class="hero">
-                <h1>Welcome to<br> OceanView Restaurant </h1>
-                <hr>
-                <p class="par"></p>
-    
-                <button class="cn"><a href="">JOIN US</a></button>
+        
         </div>
+    </nav>
+     
+     </div>
+            
     </div>
-      
+    </body>  
     <section class="items">
         <div class="item">
             <img src="./image/pizza.jpg"width="100%">
@@ -340,7 +247,7 @@
     </section><br><br><br>
 
     <div class="main2">
-        <img src="./image/WJTA6705.JPG" width="35%">
+        <img src="./image/IMG_0783 (2).PNG" width="40%">
         <div class="about-text">
          <h2>About Me</h2>
          <h5>Web Developer <span>& Designer</span></h5>
@@ -348,6 +255,7 @@
          <button type="">&reg Let's Talk</button>
         </div>
     </div>
-
+<script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
